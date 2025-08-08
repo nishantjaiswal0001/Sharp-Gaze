@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import portfolio from "../../img/portfolio.png";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsWhatsapp, BsInstagram, BsFacebook} from "react-icons/bs";
 // import { GiCondorEmblem } from "react-icons/gi";
 import { Link } from "react-router-dom";
 const Footer = () => {
@@ -67,21 +67,14 @@ const Footer = () => {
               target={"_blank"}
               rel="noreferrer"
             >
-              <Icon w={9} h={9} my="1rem" as={BsLinkedin} />
+              <Icon w={9} h={9} my="1rem" as={BsFacebook} />
             </a>
             <a
               href="/"
               target={"_blank"}
               rel="noreferrer"
             >
-              <Icon w={9} h={9} my="1rem" as={BsGithub} />
-            </a>
-            <a
-              href="/"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              <Avatar w={10} h={10} my="1rem" bg="white" src={portfolio} />
+              <Icon w={9} h={9} my="1rem" as={BsInstagram} />
             </a>
           </Box>
         </Flex>
